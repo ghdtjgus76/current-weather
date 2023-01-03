@@ -1,0 +1,82 @@
+html {
+    text-align: center;
+    background-color: rgb(83, 82, 82);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form {
+    background-color: rgb(83, 82, 82);
+}
+
+input {
+    border-radius: 20px;
+    outline: none;
+    border: transparent 1px;
+    padding: 10px;
+    margin: 10px 5px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    background-color: #18232B;
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 60px;
+}
+
+button {
+    border-radius: 20px;
+    outline: none;
+    border: transparent 1px;
+    padding: 10px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: slategrey;
+}
+
+.weather-description h3 {
+    color: rgb(73, 73, 75);
+    font-weight: 400;
+}
+
+.weather-description p {
+    color: rgb(73, 73, 75);
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.location {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+section {
+    background-color:whitesmoke;
+    margin: 50px;
+    border-radius: 50px;
+    padding-bottom: 50px;
+}
+
+.data {
+    background-color: rgb(184, 177, 177);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding-bottom: 50px;
+}
+
+@media screen and (min-width: 768px) {
+    .weather-description {
+        display:flex;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+}
